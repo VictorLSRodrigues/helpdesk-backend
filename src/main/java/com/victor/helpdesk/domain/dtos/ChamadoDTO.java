@@ -44,12 +44,12 @@ private Integer id;
 	private Integer cliente;
 	private String nomeTecnico;
 	private String nomeCliente;
+	
 	public ChamadoDTO() {
 		super();
 	}
 	
 	public ChamadoDTO(Chamado obj) {
-		super();
 		this.id = obj.getId();
 		this.dataAbertura = obj.getDataAbertura();
 		this.dataFechamento = obj.getDataFechamento();
